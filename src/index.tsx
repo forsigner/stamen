@@ -64,7 +64,7 @@ function createStore<S, R extends Reducers<S>, E extends Effects>(opt: Opt<S, R,
     if (opt.reducers) {
       const reducer: ReducerFn<S> = opt.reducers[actionName]
       if (reducer) {
-        const nextState: S = produce<S, S>(storeState, (draft: S) => {
+        const nextState: S = produce<any>(storeState, (draft: S) => {
           result = reducer(draft, payload)
         })
         const oldState = storeState

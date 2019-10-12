@@ -57,7 +57,7 @@
   "author": "forsigner",
   "license": "MIT",
   "bugs": {
-    "url": "https://.com/forsigner/stamen/issues"
+    "url": "https://github.com/forsigner/stamen/issues"
   },
   "homepage": "https://github.com/forsigner/stamen#README",
   "devDependencies": {
